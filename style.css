@@ -1,0 +1,699 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-upper {
+    position: fixed;
+    /* Fix the nav bar at the top */
+    top: 0;
+    /* Stick it to the top */
+    left: 0;
+    /* Align it to the left */
+    width: 100%;
+    /* Cover full width */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    /* Ensure the background moves with content */
+    z-index: 2;
+    height: 20px;
+
+}
+
+body {
+    padding-top: 30px;
+    /* Adjust based on navbar height */
+    font-family: 'LKFuturaStd-Medium';
+}
+
+.nav-upper.left a {
+    padding: 10px;
+
+
+}
+
+.left>a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+
+}
+
+.right>a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    z-index: 3;
+    padding: 0px 52px;
+    ;
+}
+
+.left {
+
+    position: fixed;
+    /* Fix the nav bar at the top */
+    top: 0;
+    /* Stick it to the top */
+    left: 0;
+    /* Align it to the left */
+    width: 100%;
+    padding: 10px 24px;
+
+}
+
+.right {
+    position: fixed;
+    right: 0px;
+    border-color: white;
+
+}
+
+.header {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.logo {
+    background-image: url(main_logo.svg);
+    background-size: cover;
+    width: 172px;
+    height: 55px;
+    margin: 7px -33px;
+}
+
+.num {
+    padding: 0px;
+    background-image: url(toll_phone.webp);
+    background-size: cover;
+    width: 125px;
+    height: 23px;
+    top: 20px;
+    position: relative;
+
+}
+
+.search {
+    position: relative;
+    top: 12px;
+    width: 363px;
+    height: 24px;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.sig {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.wish {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cart {
+    position: relative;
+    right: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav-sider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid black;
+    height: 45px;
+    width: 100%;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    /* border: 2px solid black; */
+    padding: 10px 29px;
+    background-color: rgba(245, 245, 220, 0.338);
+
+}
+
+.option a {
+    text-decoration: none;
+    color: black;
+}
+
+.D {
+    background-image: url('3dtryon1.webp');
+    background-size: cover;
+    height: 22px;
+    width: 47px;
+    border-radius: 6px;
+    margin: 0px 4px 0px 0px;
+}
+
+.blu {
+    background-image: url('blulogo.webp');
+    background-size: cover;
+    height: 22px;
+    width: 47px;
+    border-radius: 6px;
+    margin: 0px 4px 0px 0px;
+}
+
+.gold {
+    background-image: url('gold_max_logo_dc.webp');
+    background-size: cover;
+    height: 22px;
+    width: 47px;
+    border-radius: 6px;
+    margin: 0px 4px 0px 0px;
+}
+
+.multi-option {
+    display: flex;
+    margin-left: 143px;
+}
+
+.type-glass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    /* border: 2px solid black; */
+    padding: 10px 29px;
+    background-color: rgba(128, 128, 128, 0.1);
+    height: 139px;
+}
+
+.types {
+    width: 174px;
+    height: 134px;
+    border: 4px solid white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+.typ1 {
+    background-image: url('a2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 27px;
+    width: 124px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 35%;
+    align-items: center;
+    height: 128px;
+}
+
+.typ2 {
+    background-image: url('b2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+.typ3 {
+    background-image: url('d2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+.typ4 {
+    background-image: url('d.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+.typ5 {
+    background-image: url('e2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+.typ6 {
+    background-image: url('prog11.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 128px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.types:hover .drop1 {
+    display: block;
+    position: absolute;
+    top: 58%;
+    left: 0;
+    width: 182px;
+    /* border: 2px solid black; */
+    background-color: white;
+    z-index: 10;
+    left: -29px;
+}
+
+.drop1 {
+    display: none;
+}
+
+.drop1 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.drop1 ul li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 340PX;
+}
+
+.banner1 {
+    width: 100%;
+    height: 217px;
+}
+
+
+canvas {
+    border: 2px solid white;
+}
+
+.banner2 {
+    width: 100%;
+    height: 347px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b1 {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0px 10px; */
+    align-items: center;
+    border: 2px solid black;
+    height: 254px;
+    width: 100%;
+
+
+}
+
+.b1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 69%;
+    width: 100%;
+    /* padding: 1px 8px; */
+    /* margin: -5px -2px; */
+
+}
+
+.b1-1 {
+    border: 2px solid black;
+}
+
+.b1-1 img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    left: 49px;
+    height: 79px;
+    width: 163px;
+}
+
+.b1-1>.name1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 80px;
+    /* width: 101px; */
+    position: relative;
+    /* top: 92px;
+    left: -87px; */
+}
+
+.b1-1 button {
+    height: 36px;
+    width: 101px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    background: #55c5d4;
+    color: #ffffff;
+}
+
+
+
+
+
+.container {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 9px 21px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* Trendy sans-serif */
+    font-weight: bold;
+    /* Bold for impact */
+    letter-spacing: 1px;
+    /* Slight spacing for modern look */
+    text-transform: uppercase;
+    /* Ensure uppercase */
+}
+
+p {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /* Slimmer font for contrast */
+    letter-spacing: 0.5px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    padding: 33px 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.poster{
+    background-image: url('hechome11.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster1{
+    background-image: url('Turban-DesktopBanner.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster2{
+    background-image: url('r1.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster3{
+    background-image: url('Homepage-Banner-web.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster4{
+    background-image: url('Sun-Banner-web.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster5{
+    background-image: url('Refresh-Banner-Web.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.poster6{
+    background-image: url('Homepage-Banner-Web.webp');
+    background-size: cover;
+    height: 342px;
+    width: 100%;
+}
+.long {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1; /* Takes up all available space */
+}
+
+/* Ensure .container behaves correctly */
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 76%;
+    height: 500px;
+}
+
+
+.box {
+    background-color: lightblue;
+    width: 100%; /* Adjust dynamically */
+}
+
+.big-box {
+    grid-row: span 2;
+    height: 100%; /* Avoid fixed height */
+    background-size: cover;
+}
+
+.small-box {
+    grid-column: 2;
+    height: 100%;
+}
+
+.big-box {
+    grid-row: span 2;
+    width: 499px;
+    height: 579px;
+    background-image: url('eye-square10.webp');
+    background-size: cover;
+}
+
+.small-box:nth-child(2) {
+    grid-column: 2;
+    height: 283px;
+    width: 496px;
+    background-image: url('ce-square.webp');
+    background-size: cover
+}
+
+.small-box:nth-child(3) {
+    grid-column: 2;
+    height: 283px;
+    width: 496px;
+    background-image: url('sun-square.webp');
+    background-size: cover
+}
+
+.small-box:nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+    height: 283px;
+    width: 496px;
+    background-image: url('power-sun-square.webp');
+    background-size: cover
+}
+
+.small-box:nth-child(5) {
+    grid-column: 2;
+    grid-row: 3;
+    height: 283px;
+    width: 496px;
+    background-image: url('Banner03_TileDesktop.webp');
+    background-size: cover
+}
+.dist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    /* margin-top: 166px; */
+    top: 48vh;
+    left: -134px;
+}
+
+
+
+
+  
+
+.check {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.hat{
+    position: relative;
+    top: 425px;
+}
+.container1 {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        max-width: 1000px;
+        position: relative;
+        top: 442px;
+        left: 189px;
+}
+
+.box1 {
+    width: 48%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mug{
+    background-image: url('Screenshot\ 2025-02-08\ 225113.png');
+    height: inherit;
+}
+
+
+
+
+
+.footer {
+    position: relative;
+    background-color: #0a0a32;
+    color: white;
+    padding: 30px 50px;
+    text-align: left;
+    width: 927px;
+    left: 134px;
+    top: 116px;
+    
+}
+.footer h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+.footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer a {
+    color: #46b6ff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 8px 0;
+}
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #666;
+    padding-top: 15px;
+}
+.social-icons a {
+    margin: 0 10px;
+}
+.app-buttons img {
+    width: 120px;
+    margin-right: 10px;
+}
